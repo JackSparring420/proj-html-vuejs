@@ -4,6 +4,7 @@
         <Halls/>
         <Dj/> 
         <Events/>
+        <VipLonge/>
       </div>
      </section>
 </template>
@@ -14,13 +15,15 @@
 import Halls from '@/components/Halls.vue'
 import Dj from '@/components/Dj.vue'
 import Events from '@/components/Events.vue'
+import VipLonge from '@/components/VipLonge.vue'
 
 export default {
   name: 'Products',
   components: {
     Halls,
     Dj,
-    Events
+    Events,
+    VipLonge
   },
 }
 </script>
