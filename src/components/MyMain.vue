@@ -1,7 +1,9 @@
 <template>
     <section>
       <div id="comicslist">
-        <Halls/> 
+        <Halls/>
+        <Dj/> 
+        <Events/>
       </div>
      </section>
 </template>
@@ -10,17 +12,16 @@
 <script>
 
 import Halls from '@/components/Halls.vue'
+import Dj from '@/components/Dj.vue'
+import Events from '@/components/Events.vue'
 
 export default {
   name: 'Products',
   components: {
-    Halls
+    Halls,
+    Dj,
+    Events
   },
-    data() {
-      return {
-        
-      }
-  }
 }
 </script>
 
