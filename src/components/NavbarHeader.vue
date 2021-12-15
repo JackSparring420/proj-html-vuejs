@@ -2,13 +2,13 @@
     <nav>
       <ul>
         <li v-for="(link, i) in navLeft" :key="i">
-          <a :href="link.url" :class="link.here ? 'active' : ''">{{ link.text }}</a>
+          <a :href="link.url" :class="link.active ? 'active' : ''">{{ link.text }}</a>
         </li>
       </ul>
         <img src="../assets/img/avada-nightclub-logo-2x-200x66.png" alt="" />
       <ul>
         <li v-for="(link, k) in navRight" :key="k">
-          <a :href="link.url" :class="link.here ? 'active' : ''">{{ link.text }}</a>
+          <a :href="link.url" :class="link.active ? 'active' : ''">{{ link.text }}</a>
         </li>
       </ul>
     </nav>

@@ -17,11 +17,7 @@
         </div>
     </div>
     <div id="jumbotron">
-      <img
-        class="underline margin"
-        src="../assets/img/avada-nightclub-homepage-image-800x398.png"
-        alt=""
-      />
+      <img class="underline margin" src="../assets/img/avada-nightclub-homepage-image-800x398.png" alt=""/>
       <h2 class="margin">making memoriesss all night long</h2>
       <div class="margin">
         <button>BECOME A VIP</button>
@@ -52,34 +48,34 @@ export default {
         {
           text: "HOME",
           url: "#",
-          here: true,
+          active: true,
         },
         {
           text: "NIGHT",
           url: "#",
-          here: false,
+          active: false,
         },
         {
           text: "EVENTI",
           url: "#",
-          here: false,
+          active: false,
         },
       ],
       navRight: [
         {
           text: "JOBS",
           url: "#",
-          here: false,
+          active: false,
         },
         {
           text: "EVENTS",
           url: "#",
-          here: false,
+          active: false,
         },
         {
           text: "CONTACS US",
           url: "#",
-          here: false,
+          active: false,
         },
       ],
     };
