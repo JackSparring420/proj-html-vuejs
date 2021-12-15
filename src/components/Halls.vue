@@ -61,8 +61,9 @@ export default {
 <style scoped lang="scss">
 section {
   background-image: url("../assets/img/avada-nightclub-cloud-background.jpg");
-  background-size: contain;
-  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
   h4 {
     color: #4da4dd;
     margin: 50px 0 10px 0;
